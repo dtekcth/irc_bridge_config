@@ -1,0 +1,23 @@
+[irc]
+  [irc.dtek]
+  Server="irc.dtek.se:6667"
+  Nick="u3836_irc_bridge_bot"
+  SkipTLSVerify=true
+
+[discord]
+  [discord.clipboard]
+  Token=DISCORD_TOKEN
+  Server="Clipboard"
+
+[[gateway]]
+  name = "mygateway"
+  enable = true
+
+  [[gateway.inout]]
+  account ="irc.dtek"
+  channel = "#dtek-spam"
+
+  [[gateway.inout]]
+  account = "discord.clipboard"
+  channel = "general"
+
