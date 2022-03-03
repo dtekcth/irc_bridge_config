@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  matterbridge:
+    build:
+      context: .
+      args:
+        DISCORD_TOKEN: ${DISCORD_TOKEN}
+    restart: unless-stopped
+    environment:
+      - DISCORD_TOKEN
+#    command: -debug
