@@ -1,6 +1,6 @@
 [irc]
   [irc.dtek]
-  Server = "irc.dtek.se:6667"
+  Server = "localhost:6667"
   Nick = "Discord"
   SkipTLSVerify = true
 
@@ -8,6 +8,10 @@
   [discord.clipboard]
   Token = DISCORD_TOKEN
   Server = "Datateknologsektionen, Chalmers Studentkår"
+
+
+[general]
+RemoteNickFormat="<{NICK}> "
 
 [[gateway]]
   name = "mygateway"

@@ -5,7 +5,9 @@ services:
       context: .
       args:
         DISCORD_TOKEN: ${DISCORD_TOKEN}
+      network: "host"
     restart: unless-stopped
     environment:
       - DISCORD_TOKEN
+    network_mode: "host"
 #    command: -debug

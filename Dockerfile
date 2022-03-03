@@ -10,5 +10,5 @@ ARG DISCORD_TOKEN
 RUN sed -i s/DISCORD_TOKEN/\"$DISCORD_TOKEN\"/ matterbridge.toml
 RUN cat matterbridge.toml
 RUN chmod +x matterbridge*
-RUN ./matterbridge-1.24.0-linux-64bit
+CMD ./matterbridge-1.24.0-linux-64bit
 
