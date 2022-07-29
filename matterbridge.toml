@@ -15,6 +15,14 @@
   Password=MATTERBRIDGE_IRC_TGBOT_PASSWORD
   Charset="utf-8"
 
+############################     Dtek Telegram     ############################
+[telegram]
+
+  [telegram.dtekirc]
+  Token=MATTERBRIDGE_TELEGRAM_DTEKIRC_TOKEN
+  RemoteNickFormat="&lt;{NICK}&gt; "
+  MessageFormat="HTMLNick"
+
 ###############################     Discord     ###############################
 [discord]
 
