@@ -6,6 +6,15 @@
   Nick = "Discord"
   SkipTLSVerify = true
 
+  [irc.tgbot]
+  Server="irc.dtek.se:6697"
+  RemoteNickFormat="<tg-{NICK}> "
+  UseTLS=true
+  SkipTLSVerify=true
+  Nick="telegrambot"
+  Password=MATTERBRIDGE_IRC_TGBOT_PASSWORD
+  Charset="utf-8"
+
 ###############################     Discord     ###############################
 [discord]
 
