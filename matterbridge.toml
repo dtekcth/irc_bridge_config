@@ -36,7 +36,7 @@ RemoteNickFormat="<{NICK}> "
 
 ############################     #dtek Gateway     ############################
 [[gateway]]
-  name = "mygateway"
+  name = "dtek"
   enable = true
 
   [[gateway.inout]]
