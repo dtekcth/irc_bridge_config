@@ -51,3 +51,29 @@ RemoteNickFormat="<{NICK}> "
   account="telegram.dtekirc"
   channel="-292431925"
 
+############################     DHack Gateway     ############################
+[[gateway]]
+name="dhack"
+enable=true
+
+    [[gateway.inout]]
+    account="irc.tgbot"
+    channel="#dhack"
+
+    [[gateway.inout]]
+    account="telegram.dtekirc"
+    channel="-314089083"
+
+##########################     Dtek Spam Gateway     ##########################
+[[gateway]]
+name="tg_dtek_spam"
+enable=true
+
+    [[gateway.inout]]
+    account="irc.tgbot"
+    channel="#dtek-spam"
+
+    [[gateway.inout]]
+    account="telegram.dtekirc"
+    channel="-1001393278925"
+
