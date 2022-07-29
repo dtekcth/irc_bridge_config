@@ -1,18 +1,23 @@
+#################################     IRC     #################################
 [irc]
+
   [irc.dtek]
   Server = "localhost:6667"
   Nick = "Discord"
   SkipTLSVerify = true
 
+###############################     Discord     ###############################
 [discord]
+
   [discord.clipboard]
   Token = DISCORD_TOKEN
   Server = "Datateknologsektionen, Chalmers Studentkår"
 
-
+###############################     General     ###############################
 [general]
 RemoteNickFormat="<{NICK}> "
 
+############################     #dtek Gateway     ############################
 [[gateway]]
   name = "mygateway"
   enable = true
@@ -24,3 +29,4 @@ RemoteNickFormat="<{NICK}> "
   [[gateway.inout]]
   account = "discord.clipboard"
   channel = "irc"
+
