@@ -47,3 +47,7 @@ RemoteNickFormat="<{NICK}> "
   account = "discord.clipboard"
   channel = "irc"
 
+  [[gateway.inout]]
+  account="telegram.dtekirc"
+  channel="-292431925"
+
